@@ -5,7 +5,7 @@
 **Step2**: Accept the Copernicus licensing agreement. Go to top right corner at the webpage and click on you name. 
 
 The information displayed is needed to access API. For a windows system, create a .txt file and copy the following two lines of command: 
-**url: https://cds.climate.copernicus.eu/api/v2**
+**url: https://cds.climate.copernicus.eu/api/v2**  
 **key: your uid:your apikey**
 
 **Step 3**:  Save as the .txt in the Local Disk C:\Users\s******* and Save file, with 'File name' as '.cdsapirc' and 'Save as type' as 'All Files'.
