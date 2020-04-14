@@ -15,6 +15,7 @@ key: your uid:your api-key
 **Step 4**: Go to the CDS website and select data from datasets, choose options and at the bottom select ‘Show API request’ to request for an automated python script to download. 
 
 (For subset data choose ‘sub-region extraction’ option (alternatively refine your script to add geographical subset area to different grid resolution)
+
 **Step 5**: Using Jupyter notebook to download data: In the Jupyter notebook- 
 Install CDS API client by typing
 ```
