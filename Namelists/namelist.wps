@@ -36,7 +36,7 @@
  truelat1  =  30.0,
  truelat2  =  60.0,
  stand_lon =  82.0,
- geog_data_path = '/exports/csce/eddie/geos/groups/geos_macaque/s1959267/Build_WRF/DATA/WPS_GEOG/'
+ geog_data_path = '/exports/csce/eddie/geos/groups/geos_macaque/s*******/Build_WRF/DATA/WPS_GEOG/'
 /
 
 &ungrib
