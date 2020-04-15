@@ -4,7 +4,7 @@
 
 **Step2**: Accept the Copernicus licensing agreement. Go to top right corner at the webpage and click on you name. 
 
-The information displayed is needed to access API. For a windows system, create a .txt file and copy the following two lines of command: 
+The information displayed is needed to access API. For a windows system, create a .txt file and copy the following two lines of code: 
 ```
 url: https://cds.climate.copernicus.eu/api/v2
 key: your uid:your api-key
@@ -15,6 +15,7 @@ key: your uid:your api-key
 **Step 4**: Go to the CDS website and select data from datasets, choose options and at the bottom select ‘Show API request’ to request for an automated python script to download. 
 
 (For subset data choose ‘sub-region extraction’ option (alternatively refine your script to add geographical subset area to different grid resolution)
+
 **Step 5**: Using Jupyter notebook to download data: In the Jupyter notebook- 
 Install CDS API client by typing
 ```
