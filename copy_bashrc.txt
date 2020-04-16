@@ -9,8 +9,8 @@ fi
 # export SYSTEMD_PAGER=
 
 # User specific aliases and functions
-export WORK=/exports/csce/eddie/geos/groups/geos_macaque/s1959267/
-export  DIR=/exports/csce/eddie/geos/groups/geos_macaque/s1959267/Build_WRF/LIBRARIES
+export WORK=/exports/csce/eddie/geos/groups/geos_macaque/s*******/
+export  DIR=/exports/csce/eddie/geos/groups/geos_macaque/s*******/Build_WRF/LIBRARIES
 export  CC=icc
 export  CXX=icpc
 export  FC=ifort
@@ -27,5 +27,5 @@ export PATH=$DIR/mpich/bin:$PATH
 export NETCDF_classic=1
 . ~/setup_wrf.sh
 #export PATH="./":$PATH
-export NCARG_ROOT=/exports/csce/eddie/geos/groups/geos_macaque/s1959267/Build_WRF/LIBRARIES
-export PATH=$PATH:$NCARG_ROOT/exports/csce/eddie/geos/groups/geos_macaque/s1959267/Build_WRF/LIBRARIES/bin
+export NCARG_ROOT=/exports/csce/eddie/geos/groups/geos_macaque/s*******/Build_WRF/LIBRARIES
+export PATH=$PATH:$NCARG_ROOT/exports/csce/eddie/geos/groups/geos_macaque/s*******/Build_WRF/LIBRARIES/bin

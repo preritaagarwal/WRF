@@ -1,7 +1,7 @@
 
 echo "############## SETTING ENVIORNMENTAL VARIABLES ###########"
 
-export  DIR=/exports/csce/eddie/geos/groups/geos_macaque/s1959267/Build_WRF/LIBRARIES
+export  DIR=/exports/csce/eddie/geos/groups/geos_macaque/s*******/Build_WRF/LIBRARIES
 export  CC=icc
 export  CXX=icpc
 export  FC=ifort
