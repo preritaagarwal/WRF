@@ -22,3 +22,8 @@ module load openmpi/1.10.1
  
 # Run the program
 mpirun -np 4 ./wrf.exe
+echo '======================================================================'
+echo 'WRF Completed Successfully'
+echo "This job is running on $HOSTNAME"
+echo 'The current date and time is: ' `date`
+echo '======================================================================'
