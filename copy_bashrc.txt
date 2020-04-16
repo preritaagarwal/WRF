@@ -1,0 +1,31 @@
+# .bashrc
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+        . /etc/bashrc
+fi
+
+# Uncomment the following line if you don't like systemctl's auto-paging feature:
+# export SYSTEMD_PAGER=
+
+# User specific aliases and functions
+export WORK=/exports/csce/eddie/geos/groups/geos_macaque/s1959267/
+export  DIR=/exports/csce/eddie/geos/groups/geos_macaque/s1959267/Build_WRF/LIBRARIES
+export  CC=icc
+export  CXX=icpc
+export  FC=ifort
+export  FCFLAGS=-m64
+export  F77=ifort
+export  FFLAGS=-m64
+export  JASPERLIB=$DIR/grib2/lib
+export  JASPERINC=$DIR/grib2/include
+export  LDFLAGS=-L$DIR/grib2/lib
+export  CPPFLAGS=-I$DIR/grib2/include
+export PATH=$DIR/netcdf/bin:$PATH
+export NETCDF=$DIR/netcdf
+export PATH=$DIR/mpich/bin:$PATH
+export NETCDF_classic=1
+. ~/setup_wrf.sh
+#export PATH="./":$PATH
+export NCARG_ROOT=/exports/csce/eddie/geos/groups/geos_macaque/s1959267/Build_WRF/LIBRARIES
+export PATH=$PATH:$NCARG_ROOT/exports/csce/eddie/geos/groups/geos_macaque/s1959267/Build_WRF/LIBRARIES/bin
