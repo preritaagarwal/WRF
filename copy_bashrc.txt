@@ -26,6 +26,6 @@ export NETCDF=$DIR/netcdf
 export PATH=$DIR/mpich/bin:$PATH
 export NETCDF_classic=1
 . ~/setup_wrf.sh
-#export PATH="./":$PATH
+export PATH="./":$PATH
 export NCARG_ROOT=/exports/csce/eddie/geos/groups/geos_macaque/s*******/Build_WRF/LIBRARIES
 export PATH=$PATH:$NCARG_ROOT/exports/csce/eddie/geos/groups/geos_macaque/s*******/Build_WRF/LIBRARIES/bin
